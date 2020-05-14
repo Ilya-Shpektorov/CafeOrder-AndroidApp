@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorLightBrown"
+    android:background="@color/colorGreen"
     android:orientation="vertical">
 
     <ImageView
@@ -39,7 +39,7 @@
         android:inputType="textPersonName"
         android:textColor="@color/colorAccent"
         android:textColorHighlight="#FFFFFF"
-        android:textColorHint="#9303DAC5"
+        android:textColorHint="@color/colorLightAccent"
         android:textStyle="bold" />
 
     <EditText
@@ -51,9 +51,8 @@
         android:hint="@string/hint_password"
         android:importantForAutofill="no"
         android:inputType="textPassword"
-        android:shadowColor="@color/colorDarkGreen"
         android:textColor="@color/colorAccent"
-        android:textColorHint="#9303DAC5"
+        android:textColorHint="@color/colorLightAccent"
         android:textStyle="normal|bold" />
 
     <Button
