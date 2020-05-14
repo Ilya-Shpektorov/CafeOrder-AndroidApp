@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cafe Order</string>
+    <string name="logo_description">Логотип кафу</string>
+    <string name="wlcm_text">Добро пожаловать</string>
+    <string name="hint_name">Введите ваше имя:</string>
+    <string name="hint_password">Введите ваш пароль:</string>
+    <string name="create_order">Создать заказ</string>
+</resources>

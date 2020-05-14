@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBrown"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/logo_description"
+        app:srcCompat="@drawable/main_back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/neucha"
+        android:gravity="center"
+        android:text="@string/wlcm_text"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:fontFamily="@font/neucha"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#9303DAC5"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/neucha"
+        android:hint="@string/hint_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:shadowColor="@color/colorDarkGreen"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="#9303DAC5"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkGreen"
+        android:fontFamily="@font/neucha"
+        android:text="@string/create_order"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+</LinearLayout>
