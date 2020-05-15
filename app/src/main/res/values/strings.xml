@@ -5,4 +5,6 @@
     <string name="hint_name">Введите ваше имя:</string>
     <string name="hint_password">Введите ваш пароль:</string>
     <string name="create_order">Создать заказ</string>
+    <string name="wlcm_personal">Добро пожаловать</string>
+    <string name="toast_login">Необходимо заполнить все поля</string>
 </resources>
