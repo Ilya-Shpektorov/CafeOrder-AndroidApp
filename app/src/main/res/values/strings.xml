@@ -5,6 +5,27 @@
     <string name="hint_name">Введите ваше имя:</string>
     <string name="hint_password">Введите ваш пароль:</string>
     <string name="create_order">Создать заказ</string>
-    <string name="wlcm_personal">Добро пожаловать</string>
+    <string name="make_order">Оформить заказ</string>
+    <string name="wlcm_personal">Привет, клиент! Что желаете?</string>
+    <string name="check_topping">Что добавить в ваш напиток?</string>
     <string name="toast_login">Необходимо заполнить все поля</string>
+    <string name="choose_drink_type">Выбирите тип напитка</string>
+    <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
+    <string name="milk">Молоко</string>
+    <string name="sugar">Сахар</string>
+    <string name="lemon">Лемон</string>
+
+    <string-array name="items_of_coffe">
+        <item>Американо</item>
+        <item>Эспрессо</item>
+        <item>Капучино</item>
+        <item>Латте</item>
+    </string-array>
+    <string-array name="items_of_tea">
+        <item>Черный</item>
+        <item>Зелёный</item>
+        <item>Красный</item>
+        <item>Белый</item>
+    </string-array>
 </resources>
