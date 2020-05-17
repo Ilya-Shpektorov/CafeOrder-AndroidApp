@@ -36,12 +36,15 @@
             android:id="@+id/radioButtonTea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onClickChangeDrink"
             android:text="@string/tea" />
 
         <RadioButton
             android:id="@+id/radioButtonCoffee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClickChangeDrink"
             android:text="@string/coffee" />
 
     </RadioGroup>
@@ -105,11 +108,12 @@
         app:layout_constraintTop_toBottomOf="@+id/checkBoxMilk" />
 
     <Spinner
-        android:id="@+id/spinnerForCoffe"
+        android:id="@+id/spinnerForCoffee"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:dropDownWidth="wrap_content"
-        android:entries="@array/items_of_coffe"
+        android:entries="@array/items_of_coffee"
         android:popupBackground="@color/colorDarkGreen"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,13 +140,13 @@
         android:layout_marginTop="200dp"
         android:background="@color/colorDarkGreen"
         android:fontFamily="@font/neucha"
-        android:onClick="onClickMakeOrder"
+        android:onClick="onClickSendOrder"
         android:text="@string/make_order"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerForCoffe" />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerForCoffee" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
